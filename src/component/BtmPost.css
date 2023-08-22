@@ -1,0 +1,33 @@
+.team3-div {
+  width: 100%;
+  height: auto;
+}
+
+.team3-div > div > div:nth-child(1) > img {
+  width: 100%;
+  height: auto;
+}
+
+.btm-comment {
+  font-size: 1.6rem;
+  line-height: 1.4;
+  font-weight: 700;
+  color: #ffff;
+}
+
+.team3-div:hover > .div-wrap > div > img {
+  transform: scale(1.1);
+}
+
+.div-wrap {
+  clip-path: inset(0);
+}
+
+.div-wrap > div:nth-child(2) {
+  height: 130px;
+}
+
+.div-wrap > div > img {
+  transition: transform 0.5s;
+  overflow: hidden;
+}

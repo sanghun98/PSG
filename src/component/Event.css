@@ -1,0 +1,42 @@
+.e-title {
+  color: black;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.team6-div {
+  width: 100%;
+  height: auto;
+}
+.team6-div > div > div:nth-child(1) > img {
+  width: 100%;
+  height: auto;
+}
+
+.e-comment {
+  margin-top: 20px;
+  color: #ff1541;
+  text-decoration: underline;
+  text-decoration-color: #ff1541;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.team6-div:hover > .div-wrap > div > img {
+  transform: scale(1.1);
+}
+
+.div-wrap {
+  clip-path: inset(0);
+}
+
+.div-wrap > div > img {
+  transition: transform 0.5s;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 770px) {
+  .team6-div {
+    border-bottom: 1px solid #b1b1b1;
+  }
+}
